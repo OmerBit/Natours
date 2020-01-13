@@ -1,12 +1,9 @@
 {
   "name": "natours",
-  "homepage": "https://github.com/OmerBit/Natours",
   "version": "1.0.0",
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
